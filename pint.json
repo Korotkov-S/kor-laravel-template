@@ -1,0 +1,40 @@
+{
+    "preset": "psr12",
+    "rules": {
+            "align_multiline_comment" : true,
+            "array_syntax" : true,
+            "declare_strict_types" : true,
+            "no_unused_imports" : true,
+            "ordered_imports" : {
+                "imports_order" : [
+                    "class",
+                    "function",
+                    "const"
+                ]          
+            },
+            "control_structure_continuation_position" : true,
+
+            "concat_space": {"spacing": "one"},
+            "cast_spaces" : {"space" : "none"},
+            "binary_operator_spaces" : false,
+            "function_declaration": true,
+
+            "operator_linebreak" : false,
+
+            "global_namespace_import" : true,
+
+            "blank_line_before_statement" : false,
+            "multiline_whitespace_before_semicolons" : {"strategy" : "no_multi_line"},
+
+            "fopen_flags" : {"b_mode" : true},
+
+            "php_unit_strict" : false,
+            "php_unit_test_class_requires_covers" : false,
+            "php_unit_test_case_static_method_calls" : {"call_type" : "self"},
+
+            "yoda_style" : false,
+
+            "final_public_method_for_abstract_class" : true,
+            "self_static_accessor" : true
+    }
+}
